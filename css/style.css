@@ -15,7 +15,7 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 20px 15px;
   position: fixed;
   width: 420px;
   background-color: #010001;
@@ -30,18 +30,27 @@ nav {
   background-color: #B5B3B5;
 }
 
+.location {
+  border-bottom: 1px solid grey;
+  text-indent: 20px;
+  background-color: #FFFFFF;
+}
+
 .arrow {
   text-align: right;
+  padding-right: 20px;
 }
 
 .content h1 {
   font-size: 1.6em;
   font-weight: 600;
   line-height: 1.4;
+  width: 100%
 }
 
 .content h3 {
   font-size: 1.3em;
-  font-weight: 100;
-  line-heigh: 1.4;
+  font-weight: 400;
+  line-height: 1.4;
+  width: 100%
 }
